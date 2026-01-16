@@ -89,9 +89,9 @@
             color: #a0aec0;
         }
 
-            .instructions strong {
-                color: #e2e8f0;
-            }
+        .instructions strong {
+            color: #e2e8f0;
+        }
 
         .add-task-btn {
             position: fixed;
@@ -113,10 +113,10 @@
             justify-content: center;
         }
 
-            .add-task-btn:hover {
-                transform: scale(1.1);
-                box-shadow: 0 6px 30px rgba(255, 107, 53, 0.6);
-            }
+        .add-task-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 30px rgba(255, 107, 53, 0.6);
+        }
 
         .modal {
             display: none;
@@ -131,9 +131,9 @@
             justify-content: center;
         }
 
-            .modal.active {
-                display: flex;
-            }
+        .modal.active {
+            display: flex;
+        }
 
         .modal-content {
             background: #2d2d2d;
@@ -182,9 +182,9 @@
             transition: color 0.2s;
         }
 
-            .close-btn:hover {
-                color: #fff;
-            }
+        .close-btn:hover {
+            color: #fff;
+        }
 
         .form-group {
             margin-bottom: 20px;
@@ -212,12 +212,12 @@
             transition: border-color 0.2s;
         }
 
-            .form-input:focus,
-            .form-select:focus,
-            .form-textarea:focus {
-                outline: none;
-                border-color: #ff6b35;
-            }
+        .form-input:focus,
+        .form-select:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: #ff6b35;
+        }
 
         .form-textarea {
             resize: vertical;
@@ -228,10 +228,10 @@
             cursor: pointer;
         }
 
-            .form-select option {
-                background: #2d2d2d;
-                color: #fff;
-            }
+        .form-select option {
+            background: #2d2d2d;
+            color: #fff;
+        }
 
         .form-actions {
             display: flex;
@@ -255,19 +255,19 @@
             color: white;
         }
 
-            .btn-primary:hover {
-                transform: translateY(-2px);
-                box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
-            }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
+        }
 
         .btn-secondary {
             background: rgba(255, 255, 255, 0.1);
             color: #e2e8f0;
         }
 
-            .btn-secondary:hover {
-                background: rgba(255, 255, 255, 0.15);
-            }
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
 
         .color-option {
             width: 40px;
@@ -278,15 +278,15 @@
             transition: all 0.2s ease;
         }
 
-            .color-option:hover {
-                transform: scale(1.1);
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            }
+        .color-option:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
 
-            .color-option.selected {
-                border-color: #fff;
-                box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
-            }
+        .color-option.selected {
+            border-color: #fff;
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+        }
 
         h1 {
             font-family: 'Space Mono', monospace;
@@ -311,15 +311,15 @@
             padding-left: 40px;
         }
 
-            .timeline::before {
-                content: '';
-                position: absolute;
-                left: 0;
-                top: 0;
-                bottom: 0;
-                width: 2px;
-                background: linear-gradient(180deg, #ff6b35 0%, #f7931e 100%);
-            }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, #ff6b35 0%, #f7931e 100%);
+        }
 
         .category-section {
             margin-bottom: 60px;
@@ -327,28 +327,16 @@
             animation-fill-mode: both;
         }
 
-            .category-section:nth-child(1) {
-                animation-delay: 0.1s;
-            }
-
-            .category-section:nth-child(2) {
-                animation-delay: 0.2s;
-            }
-
-            .category-section:nth-child(3) {
-                animation-delay: 0.3s;
-            }
-
-            .category-section:nth-child(4) {
-                animation-delay: 0.4s;
-            }
+        .category-section:nth-child(1) { animation-delay: 0.1s; }
+        .category-section:nth-child(2) { animation-delay: 0.2s; }
+        .category-section:nth-child(3) { animation-delay: 0.3s; }
+        .category-section:nth-child(4) { animation-delay: 0.4s; }
 
         @keyframes fadeInUp {
             from {
                 opacity: 0;
                 transform: translateY(30px);
             }
-
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -365,13 +353,13 @@
             transition: all 0.3s ease;
         }
 
-            .category-header:hover {
-                transform: translateX(4px);
-            }
+        .category-header:hover {
+            transform: translateX(4px);
+        }
 
-                .category-header:hover .collapse-icon {
-                    transform: scale(1.1);
-                }
+        .category-header:hover .collapse-icon {
+            transform: scale(1.1);
+        }
 
         .category-dot {
             position: absolute;
@@ -384,21 +372,10 @@
             z-index: 2;
         }
 
-        .design .category-dot {
-            border-color: #ff6b35;
-        }
-
-        .admin .category-dot {
-            border-color: #4ecdc4;
-        }
-
-        .legal .category-dot {
-            border-color: #f7931e;
-        }
-
-        .investor .category-dot {
-            border-color: #45b7d1;
-        }
+        .design .category-dot { border-color: #ff6b35; }
+        .admin .category-dot { border-color: #4ecdc4; }
+        .legal .category-dot { border-color: #f7931e; }
+        .investor .category-dot { border-color: #45b7d1; }
 
         .category-title {
             font-family: 'Space Mono', monospace;
@@ -439,25 +416,10 @@
             letter-spacing: 0.5px;
         }
 
-        .design .category-badge {
-            background: rgba(255, 107, 53, 0.2);
-            color: #ff9d76;
-        }
-
-        .admin .category-badge {
-            background: rgba(78, 205, 196, 0.2);
-            color: #7ee8df;
-        }
-
-        .legal .category-badge {
-            background: rgba(247, 147, 30, 0.2);
-            color: #ffc168;
-        }
-
-        .investor .category-badge {
-            background: rgba(69, 183, 209, 0.2);
-            color: #8dd4e8;
-        }
+        .design .category-badge { background: rgba(255, 107, 53, 0.2); color: #ff9d76; }
+        .admin .category-badge { background: rgba(78, 205, 196, 0.2); color: #7ee8df; }
+        .legal .category-badge { background: rgba(247, 147, 30, 0.2); color: #ffc168; }
+        .investor .category-badge { background: rgba(69, 183, 209, 0.2); color: #8dd4e8; }
 
         .tasks-grid {
             display: grid;
@@ -488,53 +450,42 @@
             user-select: none;
         }
 
-            .task-card.completed {
-                opacity: 0.6;
-                background: rgba(78, 205, 196, 0.1);
-                border-left-color: #4ecdc4 !important;
-            }
-
-                .task-card.completed .task-description {
-                    text-decoration: line-through;
-                    opacity: 0.7;
-                }
-
-            .task-card::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
-                opacity: 0;
-                transition: opacity 0.3s ease;
-            }
-
-            .task-card:hover {
-                transform: translateX(8px);
-                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-            }
-
-                .task-card:hover::before {
-                    opacity: 1;
-                }
-
-        .design .task-card {
-            border-left-color: #ff6b35;
+        .task-card.completed {
+            opacity: 0.6;
+            background: rgba(78, 205, 196, 0.1);
+            border-left-color: #4ecdc4 !important;
         }
 
-        .admin .task-card {
-            border-left-color: #4ecdc4;
+        .task-card.completed .task-description {
+            text-decoration: line-through;
+            opacity: 0.7;
         }
 
-        .legal .task-card {
-            border-left-color: #f7931e;
+        .task-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
         }
 
-        .investor .task-card {
-            border-left-color: #45b7d1;
+        .task-card:hover {
+            transform: translateX(8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
         }
+
+        .task-card:hover::before {
+            opacity: 1;
+        }
+
+        .design .task-card { border-left-color: #ff6b35; }
+        .admin .task-card { border-left-color: #4ecdc4; }
+        .legal .task-card { border-left-color: #f7931e; }
+        .investor .task-card { border-left-color: #45b7d1; }
 
         .task-header {
             display: flex;
@@ -579,12 +530,12 @@
             border-color: #4ecdc4;
         }
 
-            .task-card.completed .task-status::after {
-                content: '✓';
-                color: white;
-                font-size: 14px;
-                font-weight: bold;
-            }
+        .task-card.completed .task-status::after {
+            content: '✓';
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
 
         .task-actions {
             position: absolute;
@@ -594,7 +545,7 @@
             gap: 8px;
             opacity: 0;
             transition: opacity 0.2s ease;
-            margin: 10px 20px;
+            margin:10px 20px;
         }
 
         .task-card:hover .task-actions {
@@ -617,15 +568,15 @@
             color: #fff;
         }
 
-            .task-edit-btn:hover {
-                background: #f7931e;
-                transform: scale(1.1);
-            }
+        .task-edit-btn:hover {
+            background: #f7931e;
+            transform: scale(1.1);
+        }
 
-            .task-delete-btn:hover {
-                background: #e74c3c;
-                transform: scale(1.1);
-            }
+        .task-delete-btn:hover {
+            background: #e74c3c;
+            transform: scale(1.1);
+        }
 
         .task-card:hover .task-status {
             border-color: rgba(255, 255, 255, 0.6);
@@ -683,17 +634,17 @@
             text-align: center;
         }
 
-            .critical-milestone h3 {
-                font-family: 'Space Mono', monospace;
-                font-size: 1.3rem;
-                margin-bottom: 12px;
-                color: #fc8181;
-            }
+        .critical-milestone h3 {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            color: #fc8181;
+        }
 
-            .critical-milestone p {
-                color: #e2e8f0;
-                font-size: 1rem;
-            }
+        .critical-milestone p {
+            color: #e2e8f0;
+            font-size: 1rem;
+        }
 
         .legend {
             display: flex;
@@ -720,21 +671,21 @@
             h1 {
                 font-size: 1.8rem;
             }
-
+            
             .timeline {
                 padding-left: 30px;
             }
-
+            
             .category-dot {
                 left: -37px;
             }
-
+            
             .task-card {
                 padding: 16px;
             }
         }
     </style>
-
+    
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
@@ -1182,7 +1133,7 @@
         let tasksRef;
         let completedTasksRef;
         let customCategoriesRef;
-
+        
         try {
             firebase.initializeApp(firebaseConfig);
             database = firebase.database();
@@ -1245,7 +1196,7 @@
 
         // Listen for real-time updates from Firebase
         let isLocalUpdate = false; // Flag to prevent processing our own updates
-
+        
         function initializeFirebaseListeners() {
             if (completedTasksRef) {
                 completedTasksRef.on('value', (snapshot) => {
@@ -1275,13 +1226,13 @@
                     console.log('Firebase: Tasks listener triggered');
                     console.log('Firebase data:', data);
                     console.log('Current customTasks before Firebase update:', customTasks);
-
+                    
                     // CRITICAL: Don't overwrite with empty array or null
                     if (!data || data.length === 0) {
                         console.warn('Firebase returned empty/null, keeping current customTasks');
                         return;
                     }
-
+                    
                     // Only update if different
                     if (JSON.stringify(data) !== JSON.stringify(customTasks)) {
                         console.log('Firebase has different data, updating customTasks');
@@ -1334,7 +1285,7 @@
                     card.remove();
                 }
             });
-
+            
             // Reload custom tasks
             loadCustomTasks();
             initializeTasks();
@@ -1427,17 +1378,17 @@
                 styleEl.id = 'dynamic-category-styles';
                 document.head.appendChild(styleEl);
             }
-
+            
             // Calculate lighter version of color for backgrounds
             const rgbaColor = hexToRgba(color, 0.2);
             const lightColor = lightenColor(color, 30);
-
+            
             const css = `
-                    .${categorySlug} .category-dot { border-color: ${color}; }
-                    .${categorySlug} .category-badge { background: ${rgbaColor}; color: ${lightColor}; }
-                    .${categorySlug} .task-card { border-left-color: ${color}; }
-                `;
-
+                .${categorySlug} .category-dot { border-color: ${color}; }
+                .${categorySlug} .category-badge { background: ${rgbaColor}; color: ${lightColor}; }
+                .${categorySlug} .task-card { border-left-color: ${color}; }
+            `;
+            
             styleEl.textContent += css;
         }
 
@@ -1464,13 +1415,13 @@
 
         // Get all task cards
         let taskCards = document.querySelectorAll('.task-card');
-
+        
         // Edit and Delete functionality
-        window.editTaskByIndex = function (taskIndex) {
+        window.editTaskByIndex = function(taskIndex) {
             editTask(taskIndex);
         };
 
-        window.deleteTaskByIndex = function (taskIndex) {
+        window.deleteTaskByIndex = function(taskIndex) {
             deleteTask(taskIndex);
         };
 
@@ -1479,34 +1430,34 @@
             console.log('Edit button clicked! Task index:', taskIndex);
             console.log('customTasks array:', customTasks);
             console.log('customTasks.length:', customTasks.length);
-
+            
             if (customTasks.length === 0) {
                 console.error('ERROR: customTasks array is EMPTY!');
                 alert('Error: No tasks found in memory. The customTasks array is empty. Please refresh the page.');
                 return;
             }
-
+            
             console.log('Task to edit:', customTasks[taskIndex]);
-
+            
             const task = customTasks[taskIndex];
             if (!task) {
                 console.error('Task not found at index:', taskIndex);
                 alert('Error: Task not found. Index: ' + taskIndex + ', Array length: ' + customTasks.length);
                 return;
             }
-
+            
             console.log('Opening edit modal for task:', task);
-
+            
             // Set form to edit mode
             const form = document.getElementById('addTaskForm');
             form.setAttribute('data-edit-mode', 'true');
             form.setAttribute('data-edit-index', taskIndex);
-
+            
             // Update modal title
             document.getElementById('modalTitle').textContent = 'Edit Task';
             document.getElementById('modalSubtitle').textContent = `Task #${taskIndex + 14}`;
             document.getElementById('submitBtn').textContent = 'Update Task';
-
+            
             // Populate form with existing data
             document.getElementById('taskCategory').value = task.category;
             document.getElementById('taskDescription').value = task.description;
@@ -1514,12 +1465,12 @@
             document.getElementById('taskDeadline').value = task.deadline || '';
             document.getElementById('taskDependencies').value = task.dependencies || '';
             document.getElementById('taskNotes').value = task.notes || '';
-
+            
             console.log('Modal should be opening now...');
-
+            
             // Show modal
             modal.classList.add('active');
-
+            
             console.log('Modal classes:', modal.className);
         }
 
@@ -1529,30 +1480,53 @@
             console.log('typeof customTasks:', typeof customTasks);
             console.log('Array.isArray(customTasks):', Array.isArray(customTasks));
             console.log('customTasks.length:', customTasks.length);
-
+            
             // Log each task individually
             for (let i = 0; i < customTasks.length; i++) {
                 console.log(`customTasks[${i}]:`, customTasks[i]);
             }
-
+            
             if (taskIndex < 0 || taskIndex >= customTasks.length) {
                 console.error('Invalid task index:', taskIndex, 'Array length:', customTasks.length);
                 alert('Error: Invalid task index ' + taskIndex + '. Array has ' + customTasks.length + ' items.');
                 return;
             }
-
+            
             console.log('Deleting task at index', taskIndex, ':', customTasks[taskIndex]);
             console.log('Task description:', customTasks[taskIndex].description);
-
+            
+            // Calculate the actual task ID (14-based)
+            const taskIdToDelete = taskIndex + 14;
+            console.log('Task ID to delete:', taskIdToDelete);
+            
+            // Remove from completed tasks array if it was marked complete
+            if (completedTasks.includes(taskIdToDelete)) {
+                console.log('Task was completed, removing from completedTasks');
+                completedTasks = completedTasks.filter(id => id !== taskIdToDelete);
+                saveCompletedToFirebase();
+            }
+            
+            // Also need to adjust all completed task IDs that are higher than the deleted one
+            // because their IDs will shift down by 1
+            const adjustedCompletedTasks = completedTasks.map(id => {
+                if (id > taskIdToDelete) {
+                    console.log(`Adjusting completed task ID from ${id} to ${id - 1}`);
+                    return id - 1;
+                }
+                return id;
+            });
+            completedTasks = adjustedCompletedTasks;
+            saveCompletedToFirebase();
+            
             // Remove from customTasks array
             const deletedTask = customTasks.splice(taskIndex, 1)[0];
-
+            
             console.log('Deleted task:', deletedTask);
             console.log('After delete, customTasks.length:', customTasks.length);
-
+            
             // Save to Firebase
             saveTasksToFirebase();
-
+            
             // CRITICAL: Reload ALL custom tasks to fix indices
             // Remove all custom task cards from DOM
             console.log('Removing all custom task cards from DOM...');
@@ -1560,98 +1534,104 @@
             let removedCount = 0;
             allTaskCards.forEach((card, index) => {
                 if (index >= 13) { // Only remove custom tasks
-                    card.remove();
+                    // Add fade out animation
+                    card.style.transition = 'opacity 0.2s ease';
+                    card.style.opacity = '0';
+                    setTimeout(() => card.remove(), 200);
                     removedCount++;
                 }
             });
             console.log('Removed', removedCount, 'custom task cards');
-
-            // Reload all custom tasks with correct indices
-            console.log('Reloading', customTasks.length, 'tasks...');
-            for (let i = 0; i < customTasks.length; i++) {
-                console.log('Adding task', i, ':', customTasks[i]);
-                addTaskToDOM(customTasks[i], i + 14);
-            }
-
-            // Reinitialize
-            console.log('Reinitializing...');
-            initializeTasks();
-            initializeCollapse();
-            updateProgress();
-            console.log('=== DELETE COMPLETE ===');
+            
+            // Wait for removal animation, then reload
+            setTimeout(() => {
+                // Reload all custom tasks with correct indices
+                console.log('Reloading', customTasks.length, 'tasks...');
+                for (let i = 0; i < customTasks.length; i++) {
+                    console.log('Adding task', i, ':', customTasks[i]);
+                    addTaskToDOM(customTasks[i], i + 14);
+                }
+                
+                // Reinitialize
+                console.log('Reinitializing...');
+                initializeTasks();
+                initializeCollapse();
+                updateProgress();
+                console.log('=== DELETE COMPLETE ===');
+            }, 250);
         }
 
         function addEditDeleteButtons(taskCard, taskIndex) {
             // Only add to custom tasks (index 13+)
             if (taskIndex < 13) return;
-
+            
             const customTaskIndex = taskIndex - 13;
-
+            
             // Check if buttons already exist
             if (taskCard.querySelector('.task-actions')) return;
-
+            
             const actionsDiv = document.createElement('div');
             actionsDiv.className = 'task-actions';
             actionsDiv.innerHTML = `
-                    <button class="task-edit-btn" title="Edit task">✎</button>
-                    <button class="task-delete-btn" title="Delete task">🗑</button>
-                `;
-
+                <button class="task-edit-btn" title="Edit task">✎</button>
+                <button class="task-delete-btn" title="Delete task">🗑</button>
+            `;
+            
             taskCard.appendChild(actionsDiv);
-
+            
             // Add event listeners
             const editBtn = actionsDiv.querySelector('.task-edit-btn');
             const deleteBtn = actionsDiv.querySelector('.task-delete-btn');
-
+            
             editBtn.addEventListener('click', (e) => {
                 e.stopPropagation();
                 editTask(customTaskIndex);
             });
-
+            
             deleteBtn.addEventListener('click', (e) => {
                 e.stopPropagation();
                 deleteTask(customTaskIndex);
             });
         }
-
+        
         // Initialize tasks
         function initializeTasks() {
             taskCards = document.querySelectorAll('.task-card');
-
+            
             // Add status indicator and data-task-id to each card
             taskCards.forEach((card, index) => {
                 const taskId = index + 1;
                 card.setAttribute('data-task-id', taskId);
-
+                
                 // Add status indicator if not already present
                 if (!card.querySelector('.task-status')) {
                     const statusDiv = document.createElement('div');
                     statusDiv.className = 'task-status';
                     card.insertBefore(statusDiv, card.firstChild);
                 }
-
+                
                 // Add edit/delete buttons for custom tasks
                 addEditDeleteButtons(card, index);
-
+                
                 // Restore completed state if saved
                 if (completedTasks.includes(taskId)) {
                     card.classList.add('completed');
                 }
-
+                
                 // Add click handler
-                card.addEventListener('click', function (e) {
+                card.addEventListener('click', function(e) {
                     // Don't toggle if clicking edit/delete buttons
                     if (e.target.closest('.task-actions')) return;
                     toggleTask(taskId, card);
                 });
             });
-
+            
             updateProgress();
         }
 
         function toggleTask(taskId, card) {
             card.classList.toggle('completed');
-
+            
             if (card.classList.contains('completed')) {
                 // Add to completed tasks
                 if (!completedTasks.includes(taskId)) {
@@ -1661,10 +1641,10 @@
                 // Remove from completed tasks
                 completedTasks = completedTasks.filter(id => id !== taskId);
             }
-
+            
             // Save to Firebase
             saveCompletedToFirebase();
-
+            
             // Update progress display
             updateProgress();
         }
@@ -1674,7 +1654,7 @@
             const completed = completedTasks.length;
             const remaining = totalTasks - completed;
             const percent = Math.round((completed / totalTasks) * 100);
-
+            
             document.getElementById('completedCount').textContent = completed;
             document.getElementById('remainingCount').textContent = remaining;
             document.getElementById('progressPercent').textContent = percent + '%';
@@ -1684,12 +1664,12 @@
         // Collapse/Expand functionality
         function initializeCollapse() {
             const categoryHeaders = document.querySelectorAll('.category-header');
-
+            
             categoryHeaders.forEach(header => {
-                header.addEventListener('click', function (e) {
+                header.addEventListener('click', function(e) {
                     // Don't trigger if clicking on a task card
                     if (e.target.closest('.task-card')) return;
-
+                    
                     const categorySection = this.closest('.category-section');
                     categorySection.classList.toggle('collapsed');
                 });
@@ -1707,7 +1687,7 @@
         const colorOptions = document.querySelectorAll('.color-option');
 
         // Show/hide new category fields
-        taskCategorySelect.addEventListener('change', function () {
+        taskCategorySelect.addEventListener('change', function() {
             if (this.value === 'new-category') {
                 newCategoryFields.style.display = 'block';
             } else {
@@ -1717,7 +1697,7 @@
 
         // Color picker functionality
         colorOptions.forEach(option => {
-            option.addEventListener('click', function () {
+            option.addEventListener('click', function() {
                 colorOptions.forEach(opt => opt.classList.remove('selected'));
                 this.classList.add('selected');
                 document.getElementById('newCategoryColor').value = this.dataset.color;
@@ -1737,7 +1717,7 @@
             document.getElementById('modalTitle').textContent = 'Add New Task';
             document.getElementById('modalSubtitle').textContent = '';
             document.getElementById('submitBtn').textContent = 'Add Task';
-
+            
             modal.classList.add('active');
         });
 
@@ -1761,11 +1741,11 @@
         // Add/Edit task
         addTaskForm.addEventListener('submit', (e) => {
             e.preventDefault();
-
+            
             const form = e.target;
             const isEditMode = form.getAttribute('data-edit-mode') === 'true';
             const editIndex = parseInt(form.getAttribute('data-edit-index'));
-
+            
             let category = document.getElementById('taskCategory').value;
             const description = document.getElementById('taskDescription').value;
             const owner = document.getElementById('taskOwner').value;
@@ -1777,35 +1757,35 @@
             if (category === 'new-category') {
                 const newCategoryName = document.getElementById('newCategoryName').value.trim();
                 const newCategoryColor = document.getElementById('newCategoryColor').value;
-
+                
                 if (!newCategoryName) {
                     alert('Please enter a category name');
                     return;
                 }
-
+                
                 // Create slug from name (lowercase, no spaces)
                 const categorySlug = newCategoryName.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-
+                
                 // Add to category config
                 categoryConfig[categorySlug] = {
                     name: newCategoryName,
                     className: categorySlug,
                     color: newCategoryColor
                 };
-
+                
                 // Save custom categories to Firebase
                 customCategories[categorySlug] = categoryConfig[categorySlug];
                 saveCategoriesToFirebase();
-
+                
                 // Add to dropdown for future use
                 const newOption = document.createElement('option');
                 newOption.value = categorySlug;
                 newOption.textContent = newCategoryName;
                 taskCategorySelect.insertBefore(newOption, taskCategorySelect.lastElementChild);
-
+                
                 // Add CSS styles for the new category
                 addCategoryStyles(categorySlug, newCategoryColor);
-
+                
                 category = categorySlug;
             }
 
@@ -1822,10 +1802,10 @@
             if (isEditMode) {
                 // Update existing task
                 customTasks[editIndex] = taskData;
-
+                
                 // Save to Firebase
                 saveTasksToFirebase();
-
+                
                 // Reload all custom tasks to ensure indices are correct
                 const allTaskCards = document.querySelectorAll('.task-card');
                 allTaskCards.forEach((card, index) => {
@@ -1833,12 +1813,12 @@
                         card.remove();
                     }
                 });
-
+                
                 // Reload all custom tasks with correct indices
                 customTasks.forEach((task, index) => {
                     addTaskToDOM(task, index + 14);
                 });
-
+                
                 // Reinitialize
                 initializeTasks();
                 initializeCollapse();
@@ -1849,32 +1829,32 @@
                 console.log('Array.isArray(customTasks):', Array.isArray(customTasks));
                 console.log('customTasks.length before:', customTasks.length);
                 console.log('taskData to add:', taskData);
-
+                
                 customTasks.push(taskData);
-
+                
                 console.log('customTasks.length after push:', customTasks.length);
                 console.log('Direct access to last item:', customTasks[customTasks.length - 1]);
-
+                
                 // Log each item
                 for (let i = 0; i < customTasks.length; i++) {
                     console.log(`customTasks[${i}]:`, customTasks[i]);
                 }
-
+                
                 // Save to Firebase (this will NOT trigger reload because of isLocalUpdate flag)
                 saveTasksToFirebase();
-
+                
                 // Add to DOM manually (since Firebase won't trigger reload)
                 const newTaskId = customTasks.length + 13;
                 console.log('Adding task to DOM with ID:', newTaskId);
                 addTaskToDOM(taskData, newTaskId);
-
+                
                 // Reinitialize tasks and collapse
                 initializeTasks();
                 initializeCollapse();
                 console.log('=== TASK ADDITION COMPLETE ===');
                 console.log('Final customTasks.length:', customTasks.length);
             }
-
+            
             // Close modal and reset form
             modal.classList.remove('active');
             addTaskForm.reset();
@@ -1885,10 +1865,10 @@
 
         function addTaskToDOM(task, taskId) {
             const config = categoryConfig[task.category];
-
+            
             // Find the category section
             let categorySection = document.querySelector(`.category-section.${config.className}`);
-
+            
             // If category section doesn't exist, create it
             if (!categorySection) {
                 categorySection = createCategorySection(config);
@@ -1896,7 +1876,7 @@
             }
 
             const tasksGrid = categorySection.querySelector('.tasks-grid');
-
+            
             // Format deadline
             let deadlineText = 'No deadline';
             if (task.deadline) {
@@ -1913,42 +1893,42 @@
             taskCard.setAttribute('data-task-id', taskId);
             taskCard.setAttribute('data-custom-index', customTaskIndex);
             taskCard.innerHTML = `
-                    <div class="task-status"></div>
-                    <div class="task-actions">
-                        <button class="task-edit-btn" onclick="event.stopPropagation(); window.editTaskByIndex(${customTaskIndex});" title="Edit task">✎</button>
-                        <button class="task-delete-btn" onclick="event.stopPropagation(); window.deleteTaskByIndex(${customTaskIndex});" title="Delete task">🗑</button>
+                <div class="task-status"></div>
+                <div class="task-actions">
+                    <button class="task-edit-btn" onclick="event.stopPropagation(); window.editTaskByIndex(${customTaskIndex});" title="Edit task">✎</button>
+                    <button class="task-delete-btn" onclick="event.stopPropagation(); window.deleteTaskByIndex(${customTaskIndex});" title="Delete task">🗑</button>
+                </div>
+                <div class="task-header">
+                    <span class="task-id">#${taskId}</span>
+                    <span class="task-owner">${task.owner}</span>
+                </div>
+                <div class="task-description">
+                    ${task.description}
+                </div>
+                <div class="task-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Deadline:</span>
+                        <span class="deadline">${deadlineText}</span>
                     </div>
-                    <div class="task-header">
-                        <span class="task-id">#${taskId}</span>
-                        <span class="task-owner">${task.owner}</span>
-                    </div>
-                    <div class="task-description">
-                        ${task.description}
-                    </div>
-                    <div class="task-meta">
+                    ${task.dependencies ? `
                         <div class="meta-item">
-                            <span class="meta-label">Deadline:</span>
-                            <span class="deadline">${deadlineText}</span>
+                            <span class="meta-label">Depends on:</span>
+                            <span class="dependency-badge">${task.dependencies}</span>
                         </div>
-                        ${task.dependencies ? `
-                            <div class="meta-item">
-                                <span class="meta-label">Depends on:</span>
-                                <span class="dependency-badge">${task.dependencies}</span>
-                            </div>
-                        ` : ''}
-                        ${task.notes ? `
-                            <div class="meta-item">
-                                <span class="meta-label">Note:</span>
-                                <span>${task.notes}</span>
-                            </div>
-                        ` : ''}
-                    </div>
-                `;
+                    ` : ''}
+                    ${task.notes ? `
+                        <div class="meta-item">
+                            <span class="meta-label">Note:</span>
+                            <span>${task.notes}</span>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
 
             tasksGrid.appendChild(taskCard);
 
             // Add click handler for task completion
-            taskCard.addEventListener('click', function (e) {
+            taskCard.addEventListener('click', function(e) {
                 // Don't toggle if clicking edit/delete buttons
                 if (e.target.closest('.task-actions')) return;
                 if (e.target.closest('button')) return;
@@ -1960,16 +1940,16 @@
             const section = document.createElement('div');
             section.className = `category-section ${config.className}`;
             section.innerHTML = `
-                    <div class="category-header">
-                        <div class="category-dot"></div>
-                        <div class="category-title">
-                            ${config.name}
-                            <span class="category-badge">Custom</span>
-                        </div>
-                        <span class="collapse-icon">▼</span>
+                <div class="category-header">
+                    <div class="category-dot"></div>
+                    <div class="category-title">
+                        ${config.name}
+                        <span class="category-badge">Custom</span>
                     </div>
-                    <div class="tasks-grid"></div>
-                `;
+                    <span class="collapse-icon">▼</span>
+                </div>
+                <div class="tasks-grid"></div>
+            `;
             return section;
         }
 
@@ -2032,14 +2012,14 @@
         loadCompletedTasks();
         initializeTasks();
         initializeCollapse();
-
+        
         // Start Firebase real-time listeners
         if (database) {
             initializeFirebaseListeners();
         }
 
         // Add reset functionality (optional - hidden shortcut)
-        document.addEventListener('keydown', function (e) {
+        document.addEventListener('keydown', function(e) {
             // Press Ctrl+Shift+R to reset all progress
             if (e.ctrlKey && e.shiftKey && e.key === 'R') {
                 if (confirm('Reset all task progress?')) {
@@ -2069,3 +2049,4 @@
     </script>
 </body>
 </html>
+
